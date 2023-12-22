@@ -38,7 +38,7 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    'Made with ❤ by HOPELESS™',
+    'Powered by <a href="https://github.com/Chiheisen-Union/Chiheisen-Vercel-Index" target="_blank" rel="noopener noreferrer">Chiheisen-Vercel-Index</a>. Made with ❤ by Chiheisen.',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
@@ -52,13 +52,13 @@ module.exports = {
   // you provide. See the documentation for details.
   links: [
     {
-      "name": "telegram"
-      "link": "https://t.me/hopeless_cloud"
+      name: 'GitHub',
+      link: 'https://github.com/Chiheisen-Union/Chiheisen-Vercel-Index',
     },
   ],
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
   // https://day.js.org/docs/en/display/format for detailed specification. The default value is ISO 8601 full datetime
   // without timezone and replacing T with space.
-  datetimeFormat: 'DD-MM-YYYY HH:mm:ss',
+  datetimeFormat: 'YYYY-MM-DD HH:mm:ss',
 }
